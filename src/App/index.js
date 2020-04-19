@@ -2,8 +2,6 @@
 const express = require('express')
 const app = express()
 
-// morgan config
-const morgan = require('morgan')
 // cors config
 const cors = require('cors')
 
