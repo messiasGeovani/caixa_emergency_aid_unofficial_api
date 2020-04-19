@@ -13,7 +13,6 @@ const routes = require('./routes')
 // app config
 app.use(express.json())
 app.use(cors())
-app.use(morgan('dev'))
 app.use(routes)
 
 // 404 error config
