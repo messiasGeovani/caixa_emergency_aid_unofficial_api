@@ -33,16 +33,18 @@ The project contains the current routes:
 
 This project was created using the [express framework](https://expressjs.com/) to create the server routes and middlewares:
 
-```bash
+```
+├── package.json
 └── src
-    ├── app
-    │   ├── controller
-    |   │   └── SessionController.js
-    │   └── middlewares
-    |       └── auth.js
-    ├── app.js
-    ├── routes.js
-    └── server.js
+    ├── App
+    │   ├── controllers
+    │   │   └── rankController.js
+    │   ├── index.js
+    │   ├── Models
+    │   │   └── Evaluation.js
+    │   └── routes.js
+    └── server.js
+
 ```
 
 ## Database
